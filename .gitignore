@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/webservice/CovidSpreadingSpeed.WebService/bin/Debug/netcoreapp3.1
+/webservice/CovidSpreadingSpeed.WebService/.vs/CovidSpreadingSpeed.WebService/config
+/webservice/CovidSpreadingSpeed.WebService/.vs/CovidSpreadingSpeed.WebService
+/webservice/CovidSpreadingSpeed.WebService/obj
+/webservice/CovidSpreadingSpeed.WebService/appsettings.Development.json
