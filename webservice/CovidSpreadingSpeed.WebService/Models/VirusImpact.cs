@@ -9,5 +9,6 @@ namespace CovidSpreadingSpeed.WebService.Models
     {
         int InfectedCount;
         int DeathCount;
+        int RecoveredCount;
     }
 }

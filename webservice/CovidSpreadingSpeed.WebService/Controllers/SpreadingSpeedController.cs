@@ -9,9 +9,9 @@ namespace CovidSpreadingSpeed.WebService.Controllers
     public class SpreadingSpeedController : ControllerBase
     {
         [HttpGet]
-        public TotalData Get()
+        public string Get()
         {
-            return new TotalData();
+            return "not implemented";
         }
     }
 }
