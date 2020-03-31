@@ -1,3 +1,4 @@
+using CovidSpreadingSpeed.WebService.DataProviders;
 using CovidSpreadingSpeed.WebService.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,7 @@ namespace CovidSpreadingSpeed.WebService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<ICovidDataProvider, Covid19ApiComDataProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
